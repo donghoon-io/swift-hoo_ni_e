@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Kefa.ttf">
+            <string>Kefa-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DONGHOON SHIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pG4-NP-nTK">
+                                <rect key="frame" x="23" y="89.5" width="329" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pG4-NP-nTK" secondAttribute="height" multiplier="7:1" id="0Vh-yR-rsq"/>
+                                    <constraint firstAttribute="width" secondItem="pG4-NP-nTK" secondAttribute="height" multiplier="7:1" id="bws-e7-dqJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hoon.png" translatesAutoresizingMaskIntoConstraints="NO" id="uyV-67-hcq">
+                                <rect key="frame" x="0.0" y="245" width="375" height="422"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="uyV-67-hcq" secondAttribute="height" multiplier="375:439" id="6W0-pj-4Fu"/>
+                                    <constraint firstAttribute="width" secondItem="uyV-67-hcq" secondAttribute="height" multiplier="375:422" id="Qle-SD-sLc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90707824729999997" green="0.96286711300000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="uyV-67-hcq" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="FcE-pa-B8Q"/>
+                            <constraint firstItem="uyV-67-hcq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GBz-aB-ugg"/>
+                            <constraint firstItem="uyV-67-hcq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="O5f-Ne-tQI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pG4-NP-nTK" secondAttribute="trailing" constant="23" id="WaZ-aY-T6W"/>
+                            <constraint firstItem="uyV-67-hcq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Y6f-WJ-eHa"/>
+                            <constraint firstItem="uyV-67-hcq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dcZ-xb-wua"/>
+                            <constraint firstItem="pG4-NP-nTK" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="23" id="gpB-9i-o8G"/>
+                            <constraint firstItem="pG4-NP-nTK" firstAttribute="width" secondItem="pG4-NP-nTK" secondAttribute="height" multiplier="7:1" id="ugR-1C-Qxi"/>
+                            <constraint firstItem="pG4-NP-nTK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="69.5" id="x0r-rH-f94"/>
+                            <constraint firstItem="uyV-67-hcq" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="yIW-MP-R4J"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Hoon.png" width="1063" height="1245"/>
+    </resources>
+</document>
